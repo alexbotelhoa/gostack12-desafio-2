@@ -30,7 +30,8 @@
 
 <p align="center">
   <a href="#rocket-sobre-o-desafio">Sobre o desafio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#calendar-entrega">Entrega</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#checkered_flag-rotas-da-aplicação">Rotas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#syringe-especificação-dos-testes">Teste</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
 
@@ -40,7 +41,7 @@ Nesse desafio, teve que ser criado uma aplicação para treinar o que foi aprend
 
 Foi uma aplicação para armazenar repositórios do portfólio particular, permitindo a criação, listagem, atualização e remoção desses repositórios, e além disso permitir que os repositórios possam receber "likes".
 
-### Rotas da aplicação
+## :checkered_flag: Rotas da aplicação
 
 - **`POST /repositories`**: A rota deve receber `title`, `url` e `techs` dentro do corpo da requisição, sendo a URL o link para o github desse repositório. Ao cadastrar um novo projeto, ele deve ser armazenado dentro de um objeto no seguinte formato: `{ id: "uuid", title: 'Desafio Node.js', url: 'http://github.com/...', techs: ["Node.js", "..."], likes: 0 }`; Certifique-se que o ID seja um UUID, e de sempre iniciar os likes como 0.
 
@@ -52,7 +53,7 @@ Foi uma aplicação para armazenar repositórios do portfólio particular, permi
 
 - **`POST /repositories/:id/like`**: A rota deve aumentar o número de likes do repositório específico escolhido através do `id` presente nos parâmetros da rota, a cada chamada dessa rota, o número de likes deve ser aumentado em 1;
 
-### Específicação dos testes
+## :syringe: Específicação dos testes
 
 Para esse desafio foi utilizdos os seguintes testes:
 
@@ -80,4 +81,4 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ---
 
-Desafio proposto com 💜 by Rocketseat :wave: [Entre nessa grande comunidade!](https://discordapp.com/invite/gCRAFhc)
+Desafio proposto com :purple_heart: by Rocketseat :wave: [Entre nessa grande comunidade!](https://discordapp.com/invite/gCRAFhc)
