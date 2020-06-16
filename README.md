@@ -37,7 +37,7 @@
 
 ## :rocket: Sobre o desafio
 
-Nesse desafio, teve que ser criado uma aplicação para treinar o que foi aprendido sobre Node.js!
+Nesse desafio, teve que ser criado uma aplicação para treinar o que foi aprendido sobre NodeJS!
 
 Foi uma aplicação para armazenar repositórios do portfólio particular, permitindo a criação, listagem, atualização e remoção desses repositórios, e além disso permitir que os repositórios possam receber "likes".
 
